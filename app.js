@@ -45,5 +45,5 @@ app.post('/producto', (req, res) => {
 
 // Iniciar el servidor
 app.listen(port, () => {
-  console.log("Servidor corriendo en http://localhost:${port}");
+  console.log("Servidor corriendo en http://192.168.0.18:${port}");
 });
